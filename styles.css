@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+ul li a{
+    color: rgb(100, 100, 100);
+    text-decoration: none;  
+    transition: 800ms all ease; 
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.button{
+    background: #081158;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: 800ms all ease;
+}
+
+.button a{
+    color: #fbb244;  
+}
+
+.button:hover{
+    background: transparent;
+}
+
+.button a:hover{
+    color: black;
+}
+
+/* css for the landing page */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    /* padding: 20px; */
+}
+
+.hero img{
+    width: 97%;
+}
+
+.welcome{
+    color: #fbb244;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    background: #fbb24433;
+    width: fit-content;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.writeup h1{
+    color: #081158;
+    font-size: 40px;
+    margin-bottom: 16px;
+    width: 70%;
+
+}
+
+.writeup .far{
+    color: #00000080;
+    text-align: justify;
+    width: 70%;
+    margin-bottom: 16px;
+}
+
+.writeup a{
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.links{
+    margin-top: 30px;
+}
+
+.flink{
+    padding: 15px 30px;
+    background-color: #081158;
+    color: #ffff;
+    border-radius: 30px;
+    border: 1px solid #081158;
+    transition: 300ms all ease;
+}
+
+.flink:hover{
+    background-color: transparent;
+    color: #081158;
+}
+
+.flink2{
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid #081158;
+    border-radius: 30px;
+    transition: 300ms all ease;
+}
+
+.flink2:hover{
+    background-color: #081158;
+    color: white;
+}
